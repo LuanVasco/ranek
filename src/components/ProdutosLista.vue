@@ -10,18 +10,32 @@
 </template>
 
 <script>
+import { serialize } from "@/helpers"
 import { api } from "@/services"
 export default {
   data() {
     return {
       produtos: null,
+      produtoPorPagina: 9,
     }
   },
   methods: {
     getProdutos() {
-      api.get("/produto").then(response => {
+      api.get(`/produto?_limit=${this.produtoPorPagina}${this.url}`)
+      .then(response => {
         this.produtos = response.data;
       })
+    }
+  },
+  computed: {
+    url() {
+      const query = serialize(this.$route.query)
+      return query;
+    }
+  },
+  watch: {
+    url() {
+      this.getProdutos()
     }
   },
   created() {

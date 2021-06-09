@@ -1,0 +1,44 @@
+{
+  "usuario": [
+    {
+      "id": "luan@luangodoy.com",
+      "email": "luan@luangodoy.com",
+      "nome": "Luan Godoy",
+      "senha": "secret",
+      "rua": "Rua Dom Pedro II",
+      "cep": "13630-138",
+      "numero": "1540",
+      "estado": "SP",
+      "cidade": "Pirassunuga"
+    }
+  ],
+  "produto": [
+    {
+      "id": "teclado-logitech",
+      "nome": "Teclado Logitech - G915 TKL",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "1499",
+      "vendido": "false",
+      "descricao": "Teclado possui conexão wireless e bluetooth",
+      "fotos": null
+    },
+    {
+      "id": "quadcast-s",
+      "nome": "Quadcast S",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "1489",
+      "vendido": "false",
+      "descricao": "O HyperX QuadCast é o microfone independente ideal com todos os recursos para o streamer ou podcaster que procura um microfone com som de qualidade.",
+      "fotos": null
+    },
+    {
+      "id": "mouse-logitech",
+      "nome": "Mouse Logitech - G PRO",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "569",
+      "vendido": "false",
+      "descricao": "Novo Mouse da Logitech sem fio",
+      "fotos": null
+    }
+  ]
+}

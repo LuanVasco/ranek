@@ -1,7 +1,7 @@
 <template>
   <section class="produtos-container">
     <div v-if="produtos && produtos.length" class="produtos">
-      <article v-for="produto in produtos" :key="produto.id" class="produto">
+      <article v-for="(produto, index) in produtos" :key="index" class="produto">
         <router-link to="/"> 
           <img v-if="produto.fotos " :src="produto.fotos[0].src" :alt="produto.fotos[0].titulo">
           <p class="preco">{{ produto.preco }}</p>
@@ -9,6 +9,10 @@
           <p>{{ produto.descricao }}</p>
         </router-link>
       </article>
+      <ProdutosPaginar 
+        :produtosPorPagina="produtosPorPagina"
+        :produtosTotal="produtosTotal"
+      />
     </div>
     <div class="sem-resultados" v-else-if="produtos && produtos.length === 0">
       <p>Busca sem resultados. Tente buscar outro termo</p>
@@ -20,19 +24,25 @@
 </template>
 
 <script>
+import ProdutosPaginar from "@/components/ProdutosPaginar"
 import { serialize } from "@/helpers"
 import { api } from "@/services"
 export default {
+  components: {
+    ProdutosPaginar
+  },
   data() {
     return {
       produtos: null,
-      produtoPorPagina: 9,
+      produtosPorPagina: 9,
+      produtosTotal: 0,
     }
   },
   methods: {
     getProdutos() {
-      api.get(`/produto?_limit=${this.produtoPorPagina}${this.url}`)
+      api.get(`/produto?_limit=${this.produtosPorPagina}${this.url}`)
       .then(response => {
+        this.produtosTotal = Number(response.headers['x-total-count']);
         this.produtos = response.data;
       })
     }

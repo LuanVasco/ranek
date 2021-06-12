@@ -23,12 +23,21 @@
     <div class="button">
       <slot></slot>
     </div>
+    <pre>{{ this.$store.state }}</pre>
   </form>
 </template>
 
 <script>
+import { mapFields } from "@/helpers"
 export default {
-  name: "UsuarioForm"
+  name: "UsuarioForm",
+  computed: {
+    ...mapFields({
+      fields: ["nome", "email", "senha", "cep", "rua", "numero", "bairro", "cidade", "estado"],
+      base: "usuario",
+      mutation: "UPDATE_USUARIO"
+    }),
+  }
 }
 </script>
 

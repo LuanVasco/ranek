@@ -1,25 +1,25 @@
 <template>
   <section class="produtos-container">
-    <div v-if="produtos && produtos.length" class="produtos">
-      <article v-for="(produto, index) in produtos" :key="index" class="produto">
-        <router-link to="/"> 
-          <img v-if="produto.fotos " :src="produto.fotos[0].src" :alt="produto.fotos[0].titulo">
-          <p class="preco">{{ produto.preco }}</p>
-          <h2 class="title">{{ produto.nome }}</h2>
-          <p>{{ produto.descricao }}</p>
-        </router-link>
-      </article>
-      <ProdutosPaginar 
-        :produtosPorPagina="produtosPorPagina"
-        :produtosTotal="produtosTotal"
-      />
-    </div>
-    <div class="sem-resultados" v-else-if="produtos && produtos.length === 0">
-      <p>Busca sem resultados. Tente buscar outro termo</p>
-    </div>
-    <div v-else>
-      <p>Carregando...</p>
-    </div>
+    <transition mode="out-in">
+      <div v-if="produtos && produtos.length" class="produtos" key="produtos">
+        <article v-for="(produto, index) in produtos" :key="index" class="produto">
+          <router-link to="/"> 
+            <img v-if="produto.fotos " :src="produto.fotos[0].src" :alt="produto.fotos[0].titulo">
+            <p class="preco">{{ produto.preco }}</p>
+            <h2 class="title">{{ produto.nome }}</h2>
+            <p>{{ produto.descricao }}</p>
+          </router-link>
+        </article>
+        <ProdutosPaginar 
+          :produtosPorPagina="produtosPorPagina"
+          :produtosTotal="produtosTotal"
+        />
+      </div>
+      <div class="sem-resultados" v-else-if="produtos && produtos.length === 0" key="sem-resultado">
+        <p>Busca sem resultados. Tente buscar outro termo</p>
+      </div>
+      <PaginaCarregando v-else key="carregando"/>
+    </transition>
   </section>
 </template>
 
@@ -34,17 +34,20 @@ export default {
   data() {
     return {
       produtos: null,
-      produtosPorPagina: 9,
+      produtosPorPagina: 6,
       produtosTotal: 0,
     }
   },
   methods: {
     getProdutos() {
-      api.get(`/produto?_limit=${this.produtosPorPagina}${this.url}`)
-      .then(response => {
-        this.produtosTotal = Number(response.headers['x-total-count']);
-        this.produtos = response.data;
-      })
+      this.produtos = null
+      setTimeout(() => {
+        api.get(`/produto?_limit=${this.produtosPorPagina}${this.url}`)
+        .then(response => {
+          this.produtosTotal = Number(response.headers['x-total-count']);
+          this.produtos = response.data;
+        })
+      }, 1500)
     }
   },
   computed: {

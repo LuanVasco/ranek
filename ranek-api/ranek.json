@@ -120,6 +120,222 @@
       "vendido": "false",
       "descricao": "Teclado comun",
       "fotos": null
+    },
+    {
+      "id": "teclado-logitech",
+      "nome": "Teclado Logitech - G915 TKL",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "1499",
+      "vendido": "false",
+      "descricao": "Teclado possui conexão wireless e bluetooth",
+      "fotos": null
+    },
+    {
+      "id": "quadcast-s",
+      "nome": "Quadcast S",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "1489",
+      "vendido": "false",
+      "descricao": "O HyperX QuadCast é o microfone independente ideal com todos os recursos para o streamer ou podcaster que procura um microfone com som de qualidade.",
+      "fotos": null
+    },
+    {
+      "id": "mouse-logitech",
+      "nome": "Mouse Logitech - G PRO",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "569",
+      "vendido": "false",
+      "descricao": "Novo Mouse da Logitech sem fio",
+      "fotos": null
+    },
+    {
+      "id": "teclado-hyperx",
+      "nome": "Teclado HyperX",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "1099",
+      "vendido": "false",
+      "descricao": "Teclado possui conexão wireless e bluetooth",
+      "fotos": null
+    },
+    {
+      "id": "mouse-hyperx",
+      "nome": "Mouse Hyper X",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "569",
+      "vendido": "false",
+      "descricao": "Novo Mouse da HyperX sem fio",
+      "fotos": null
+    },
+    {
+      "id": "quadcast",
+      "nome": "Quadcast",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "889",
+      "vendido": "false",
+      "descricao": "O HyperX QuadCast é o microfone independente ideal com todos os recursos para o streamer.",
+      "fotos": null
+    },
+    {
+      "id": "headset-corsair",
+      "nome": "Headset Corsair",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "1099",
+      "vendido": "false",
+      "descricao": "Headset possui conexão wireless e bluetooth",
+      "fotos": null
+    },
+    {
+      "id": "webcam-logitech",
+      "nome": "Webcam Logitech",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "569",
+      "vendido": "false",
+      "descricao": "Nova Webcam",
+      "fotos": null
+    },
+    {
+      "id": "webcam",
+      "nome": "Webcam",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "269",
+      "vendido": "false",
+      "descricao": "Webcam",
+      "fotos": null
+    },
+    {
+      "id": "mouse-razer",
+      "nome": "Mouse Razer",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "569",
+      "vendido": "false",
+      "descricao": "Novo Mouse da Razer",
+      "fotos": null
+    },
+    {
+      "id": "suporte-para-microfone",
+      "nome": "Suporte para Microfone",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "89",
+      "vendido": "false",
+      "descricao": "Suporte para Microfone",
+      "fotos": null
+    },
+    {
+      "id": "teclado-multilazer",
+      "nome": "Teclado Multilazer",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "199",
+      "vendido": "false",
+      "descricao": "Teclado comun",
+      "fotos": null
+    },
+    {
+      "id": "teclado-logitech",
+      "nome": "Teclado Logitech - G915 TKL",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "1499",
+      "vendido": "false",
+      "descricao": "Teclado possui conexão wireless e bluetooth",
+      "fotos": null
+    },
+    {
+      "id": "quadcast-s",
+      "nome": "Quadcast S",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "1489",
+      "vendido": "false",
+      "descricao": "O HyperX QuadCast é o microfone independente ideal com todos os recursos para o streamer ou podcaster que procura um microfone com som de qualidade.",
+      "fotos": null
+    },
+    {
+      "id": "mouse-logitech",
+      "nome": "Mouse Logitech - G PRO",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "569",
+      "vendido": "false",
+      "descricao": "Novo Mouse da Logitech sem fio",
+      "fotos": null
+    },
+    {
+      "id": "teclado-hyperx",
+      "nome": "Teclado HyperX",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "1099",
+      "vendido": "false",
+      "descricao": "Teclado possui conexão wireless e bluetooth",
+      "fotos": null
+    },
+    {
+      "id": "mouse-hyperx",
+      "nome": "Mouse Hyper X",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "569",
+      "vendido": "false",
+      "descricao": "Novo Mouse da HyperX sem fio",
+      "fotos": null
+    },
+    {
+      "id": "quadcast",
+      "nome": "Quadcast",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "889",
+      "vendido": "false",
+      "descricao": "O HyperX QuadCast é o microfone independente ideal com todos os recursos para o streamer.",
+      "fotos": null
+    },
+    {
+      "id": "headset-corsair",
+      "nome": "Headset Corsair",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "1099",
+      "vendido": "false",
+      "descricao": "Headset possui conexão wireless e bluetooth",
+      "fotos": null
+    },
+    {
+      "id": "webcam-logitech",
+      "nome": "Webcam Logitech",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "569",
+      "vendido": "false",
+      "descricao": "Nova Webcam",
+      "fotos": null
+    },
+    {
+      "id": "webcam",
+      "nome": "Webcam",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "269",
+      "vendido": "false",
+      "descricao": "Webcam",
+      "fotos": null
+    },
+    {
+      "id": "mouse-razer",
+      "nome": "Mouse Razer",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "569",
+      "vendido": "false",
+      "descricao": "Novo Mouse da Razer",
+      "fotos": null
+    },
+    {
+      "id": "suporte-para-microfone",
+      "nome": "Suporte para Microfone",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "89",
+      "vendido": "false",
+      "descricao": "Suporte para Microfone",
+      "fotos": null
+    },
+    {
+      "id": "teclado-multilazer",
+      "nome": "Teclado Multilazer",
+      "usuario_id": "luan@luangodoy.com",
+      "preco": "199",
+      "vendido": "false",
+      "descricao": "Teclado comun",
+      "fotos": null
     }
   ]
 }

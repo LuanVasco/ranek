@@ -10,6 +10,30 @@
       "numero": "1540",
       "estado": "SP",
       "cidade": "Pirassunuga"
+    },
+    {
+      "id": "devluangodoy@gmail.com",
+      "nome": "Luan Henrique de Godoy Vasco",
+      "email": "devluangodoy@gmail.com",
+      "senha": "secret",
+      "cep": "13630138",
+      "rua": "Rua Dom Pedro II",
+      "numero": "",
+      "bairro": "Centro",
+      "cidade": "Pirassununga",
+      "estado": "SP"
+    },
+    {
+      "id": "leonard_vieira@gmail.com",
+      "nome": "Leonard",
+      "email": "leonard_vieira@gmail.com",
+      "senha": "secre",
+      "cep": "14026060",
+      "rua": "Rua Atílio Facchin",
+      "numero": "602",
+      "bairro": "Vila Ana Maria",
+      "cidade": "Ribeirão Preto",
+      "estado": "SP"
     }
   ],
   "produto": [

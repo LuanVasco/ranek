@@ -24,7 +24,6 @@
         <router-view></router-view>
       </transition>
     </section>
-    Pagina do Usuário: {{ usuario }}  
   </section>  
 </template>
 

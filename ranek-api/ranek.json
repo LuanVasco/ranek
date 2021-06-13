@@ -360,14 +360,6 @@
       "vendido": "false",
       "descricao": "Teclado comun",
       "fotos": null
-    },
-    {
-      "nome": "Iphone 11",
-      "preco": "4899",
-      "descricao": "Iphone com tela trincada, porém em ótimo funcionamento",
-      "fotos": null,
-      "usuario_id": "devluangodoy@gmail.com",
-      "id": "Prr8E4M"
     }
   ]
 }

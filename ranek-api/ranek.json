@@ -1,4 +1,50 @@
 {
+  "transacao": [
+    {
+      "comprador_id": "devluangodoy@gmail.com",
+      "vendedor_id": "luan@luangodoy.com",
+      "produto": {
+        "id": "teclado-logitech",
+        "nome": "Teclado Logitech - G915 TKL",
+        "usuario_id": "luan@luangodoy.com",
+        "preco": "1499",
+        "vendido": "false",
+        "descricao": "Teclado possui conexão wireless e bluetooth",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "13630138",
+        "rua": "Rua Dom Pedro II",
+        "numero": "1534",
+        "bairro": "Centro",
+        "cidade": "Pirassununga",
+        "estado": "SP"
+      },
+      "id": 1
+    },
+    {
+      "comprador_id": "alberto@gmail.com",
+      "vendedor_id": "luan@luangodoy.com",
+      "produto": {
+        "id": "teclado-logitech",
+        "nome": "Teclado Logitech - G915 TKL",
+        "usuario_id": "luan@luangodoy.com",
+        "preco": "1499",
+        "vendido": "false",
+        "descricao": "Teclado possui conexão wireless e bluetooth",
+        "fotos": null
+      },
+      "endereco": {
+        "cep": "14026-160",
+        "rua": "Avenida Independência",
+        "numero": "1290",
+        "bairro": "Residencial Flórida",
+        "cidade": "Ribeirão Preto",
+        "estado": "SP"
+      },
+      "id": 2
+    }
+  ],
   "usuario": [
     {
       "id": "luan@luangodoy.com",
@@ -32,6 +78,18 @@
       "rua": "Rua Atílio Facchin",
       "numero": "602",
       "bairro": "Vila Ana Maria",
+      "cidade": "Ribeirão Preto",
+      "estado": "SP"
+    },
+    {
+      "id": "alberto@gmail.com",
+      "nome": "Alberto Souza",
+      "email": "alberto@gmail.com",
+      "senha": "123",
+      "cep": "14026-160",
+      "rua": "Avenida Independência",
+      "numero": "1290",
+      "bairro": "Residencial Flórida",
       "cidade": "Ribeirão Preto",
       "estado": "SP"
     }

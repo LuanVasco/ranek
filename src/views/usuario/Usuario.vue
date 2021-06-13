@@ -46,5 +46,43 @@ export default {
 </script>
 
 <style scoped>
+.usuario {
+  display: grid;
+  grid-template-columns: minmax(140px, 200px) 1fr;
+  grid-gap: 30px;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.sidenav a,
+.sidenav button {
+  padding: 10px;
+  display: block;
+  background: #f4f7fc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
 
+.sidenav a.router-link-exact-active,
+.sidenav a:hover,
+.sidenav button:hover {
+  background: #87f;
+  color: #FFF;
+}
+
+.sidenav button {
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Avenir", Arial, Helvetica, sans-serif;
+  text-align: left;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .usuario {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
 </style>
